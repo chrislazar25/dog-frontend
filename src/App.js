@@ -12,8 +12,8 @@ function App() {
       <BrowserRouter>
         <Navigation >
           <Routes>
-            <Route path='/' element={<LogIn/>}/>
-            <Route path='/search' element={<SearchDogs/>}/>
+            <Route path='/dog-frontend/' element={<LogIn/>}/>
+            <Route path='/dog-frontend/search' element={<SearchDogs/>}/>
           </Routes>
         </Navigation>
       </BrowserRouter>

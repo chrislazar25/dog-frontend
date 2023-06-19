@@ -24,7 +24,7 @@ function LogIn() {
           if (response.ok) {
             // Login successful
             console.log('Logged in successfully!');
-            nav('/search');
+            nav('/dog-frontend/search');
           } else {
             // Handle login failure
             console.error('Login failed!');
